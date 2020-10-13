@@ -74,7 +74,8 @@ body {
       justify-content: space-between;
     }
 
-    img {}
+    img {
+    }
 
     .nav {
       ul {
@@ -83,7 +84,7 @@ body {
         li {
           list-style: none;
           padding: 25px;
-
+          font-size: 20px;
           a {
             color: snow;
             font-family: $primary;
@@ -145,12 +146,11 @@ body {
 .section-start {
   background-color: $offWhite;
 
-  &>section {
+  & > section {
     padding-top: 150px;
   }
 
   .first-section {
-
     .section-wrapper {
       padding: 0px 0px 150px 0px;
     }
@@ -249,7 +249,7 @@ body {
 }
 
 .hero-image {
-  background-image: url('../img/test-1.jpg');
+  background-image: url("../img/test-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -286,8 +286,6 @@ body {
     display: none;
   }
 }
-
-
 
 .player .vp-sidedock {
   display: none !important;
@@ -341,7 +339,8 @@ body {
 section {
   background-color: $offWhite;
 
-  .col {}
+  .col {
+  }
 
   .section-wrapper {
     padding: 100px 0px 150px 0px;
@@ -350,14 +349,14 @@ section {
     // max-width:960px;
     justify-content: space-between;
 
-    h1 {}
+    h1 {
+    }
 
     h2 {
       text-align: center;
       width: 100%;
       font-size: 2em;
       font-weight: bold;
-      ;
     }
 
     p {
@@ -672,7 +671,8 @@ footer {
       margin: 0 auto;
       letter-spacing: 4px;
 
-      span {}
+      span {
+      }
     }
   }
 }
@@ -680,7 +680,6 @@ footer {
 @media only screen and (max-width: 1024px) {
   .third-section {
     .projects-container {
-
       // display: block !important;
       .col {
         &:nth-child(2) {
@@ -717,7 +716,8 @@ footer {
 }
 
 @media only screen and (max-width: 991px) {
-  section .section-wrapper {}
+  section .section-wrapper {
+  }
 
   .citat-wrapper {
     display: block !important;
@@ -831,12 +831,15 @@ footer {
   }
 }
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+}
 
-@media only screen and (min-width: 320px) {}
+@media only screen and (min-width: 320px) {
+}
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min-resolution: 144dpi) {}
+  only screen and (min-resolution: 144dpi) {
+}
 
 .swap-view {
   position: relative;
