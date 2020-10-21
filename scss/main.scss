@@ -54,9 +54,9 @@ body {
         justify-content: center;
 
         .header-logo {
-          background-image: url(../img/logo-white.png);
+          background-image: url(../img/VIT.png);
           height: 50px;
-          width: 175px;
+          width: 205px;
           background-size: cover;
 
           &.active {
@@ -83,7 +83,7 @@ body {
 
         li {
           list-style: none;
-          padding: 25px;
+          padding: 20px;
           font-size: 20px;
           a {
             color: snow;
@@ -91,7 +91,7 @@ body {
             font-weight: $bold;
 
             &:hover {
-              color: black;
+              color: $blue !important;
               text-decoration: none;
             }
 
@@ -100,7 +100,7 @@ body {
               display: block;
               width: 0;
               height: 2px;
-              background: black;
+              background: $blue;
               transition: width 0.4s;
               text-underline-position: right under;
             }
@@ -151,6 +151,13 @@ body {
   }
 
   .first-section {
+    h1 {
+      strong {
+        text-decoration: underline;
+        text-decoration-color: #1FC2C2;
+        text-underline-position: under;
+      }
+    }
     .section-wrapper {
       padding: 0px 0px 150px 0px;
     }
@@ -267,8 +274,9 @@ body {
 
     h1 {
       color: white;
-      font-size: calc(34px + (36 - 10) * ((100vw - 900px) / (1100 - 300)));
-
+      font-size: calc(34px + (46 - 10) * ((100vw - 900px) / (1100 - 300)));
+      text-decoration: underline;
+      text-decoration-color: #1FC2C2;
       font-weight: bold;
     }
   }
@@ -280,6 +288,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+    z-index:-1;
   }
 
   .text-animation {
@@ -397,6 +406,9 @@ section {
       .clients-container {
         video {
           object-fit: cover;
+          width: 200px;
+          margin: 0 auto;
+          display: block;
         }
       }
 
@@ -412,9 +424,13 @@ section {
   padding: 100px 0px 150px 0px;
   h1 {
     text-align: center;
-    padding-bottom: 50px;
+    // padding-bottom: 50px;
+    strong {
+      text-decoration: underline;
+      text-decoration-color: #1FC2C2;
+      text-underline-position: under;
+    }
   }
-
   .projects-container {
     display: flex;
   }

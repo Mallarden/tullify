@@ -5,9 +5,9 @@
 get_header(); ?>
 <div id="primary" class="content">
   <div class="hero-image">  
-  <!-- <video autoplay playsinline autoplay muted loop>
-    <source src="<?php echo get_stylesheet_directory_uri(); ?>/img/Hemsida-banner04.mp4" type="video/mp4" />
-</video> -->
+  <video autoplay playsinline autoplay muted loop>
+    <source src="<?php echo get_stylesheet_directory_uri(); ?>/img/video_2.mp4" type="video/mp4" />
+</video>
     <div class="hero-text d-flex">
       <h1>Tullify, We simplify customs.</h1>
     </div>
@@ -37,27 +37,30 @@ get_header(); ?>
     <h1 class="text-center"><strong>Vår expertis</strong></h1>
       <div class="section-wrapper row">
       <div class="row our-expertise">
-        <div class="col-lg-3 col-sm-12 p-0 fade-y" data-delighter="start:0.95;">
+        <div class="col-lg-3 col-md-6 col-sm-12 p-0 fade-y" data-delighter="start:0.95;">
           <div class="clients-container">
-            <video class="myvideos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/animation.mov" poster="<?php echo get_stylesheet_directory_uri(); ?>/img/animation-img.png" loop="" preload="" playsinline="true" webkit-playsinline="true" muted="" width="100%" height="auto" alt=""></video>
+            <video class="myvideos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/passport.mp4" type="video/mp4" preload="" autoplay="true" playsinline="true" webkit-playsinline="true" muted="" width="100%" height="auto" alt=""></video>
             <h2>Exporthantering</h2>
           </div>
         </div>
-        <div class="col-lg-3 col-sm-12 p-0 fade-y middle-animation" data-delighter="start:0.95;">
+        <div class="col-lg-3 col-md-6 col-sm-12 p-0 fade-y middle-animation" data-delighter="start:0.95;">
           <div class="clients-container">
-            <video class="myvideos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/animation.mov" poster="<?php echo get_stylesheet_directory_uri(); ?>/img/animation-img.png" loop="" preload="" playsinline="true" webkit-playsinline="true" muted="" width="100%" height="auto" alt=""></video>
+            <video class="myvideos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/delivery.mp4" type="video/mp4" preload="" autoplay="true" playsinline="true" webkit-playsinline="true" muted="" width="100%" height="auto" alt=""></video>
             <h2>Rådgivning</h2>
           </div>
         </div>
-        <div class="col-lg-3 col-sm-12 p-0 fade-y" data-delighter="start:0.95;">
+        <div class="col-lg-3 col-md-6 col-sm-12 p-0 fade-y" data-delighter="start:0.95;">
           <div class="clients-container">
-            <video class="myvideos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/animation.mov" poster="<?php echo get_stylesheet_directory_uri(); ?>/img/animation-img.png" loop="" preload="" playsinline="true" webkit-playsinline="true" muted="" width="100%" height="auto" alt=""></video>
+            <video class="myvideos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/handshake.mp4" type="video/mp4" preload="" autoplay="true" playsinline="true" webkit-playsinline="true" muted="" width="100%" height="auto" alt=""></video>
             <h2>Klassificering</h2>
           </div>
         </div>
-        <div class="col-lg-3 col-sm-12 p-0 fade-y" data-delighter="start:0.95;">
+        <div class="col-lg-3 col-md-6 col-sm-12 p-0 fade-y" data-delighter="start:0.95;">
           <div class="clients-container">
-            <video class="myvideos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/animation.mov" poster="<?php echo get_stylesheet_directory_uri(); ?>/img/animation-img.png" loop="" preload="" playsinline="true" webkit-playsinline="true" muted="" width="100%" height="auto" alt=""></video>
+            <video class="myvideos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/anteckningar.mp4" 
+            type="video/mp4" preload="" autoplay="true" playsinline="true" webkit-playsinline="true" muted="" width="100%" height="auto" alt=""></video>
+
+            <!-- poster="<?php echo get_stylesheet_directory_uri(); ?>/img/animation-img.png"  -->
             <h2>Utbildning</h2>
           </div>
         </div>
