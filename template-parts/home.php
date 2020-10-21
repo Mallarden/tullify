@@ -5,9 +5,9 @@
 get_header(); ?>
 <div id="primary" class="content">
   <div class="hero-image">  
-  <video autoplay playsinline autoplay muted loop>
+  <!-- <video autoplay playsinline autoplay muted loop>
     <source src="<?php echo get_stylesheet_directory_uri(); ?>/img/video_2.mp4" type="video/mp4" />
-</video>
+</video> -->
     <div class="hero-text d-flex">
       <h1>Tullify, We simplify customs.</h1>
     </div>
