@@ -518,7 +518,7 @@ footer {
   width: 100%;
   padding-bottom: 25px;
   background-color: #222;
-  margin-top: -7px;
+  margin-top: -25px;
 
   .logo-img {
     width: 230px;
@@ -568,7 +568,9 @@ footer {
   text-align: center;
   color: white;
 }
-
+div.wpforms-container-full .wpforms-form .wpforms-field .wpforms-field-row:last-of-type {
+  max-width:100% !important;
+}
 
 .services-first-section {
   margin-top: 75vh;
@@ -789,6 +791,7 @@ footer {
     }
   }
 
+
   .our-team-img-info {
     // display:flex;
     padding-top: 0px;
@@ -825,7 +828,7 @@ footer {
 }
 .seventh-section {
   background-color:#222;
-
+  color:White;
 }
 
 @media only screen and (max-width: 768px) {
