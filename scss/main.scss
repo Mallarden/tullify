@@ -393,9 +393,6 @@ section {
 
 .second-section {
   background-color: white;
-  -moz-box-shadow: inset 0 0 10px #000000;
-  -webkit-box-shadow: inset 0 0 10px #000000;
-  box-shadow: inset 0 0 10px #000000;
 
   .section-wrapper {
     width: 65%;
@@ -571,6 +568,9 @@ footer {
 div.wpforms-container-full .wpforms-form .wpforms-field .wpforms-field-row:last-of-type {
   max-width:100% !important;
 }
+div.wpforms-container-full .wpforms-form input.wpforms-field-medium {
+  max-width: 100% !important;
+}
 
 .services-first-section {
   margin-top: 75vh;
@@ -599,11 +599,14 @@ div.wpforms-container-full .wpforms-form .wpforms-field .wpforms-field-row:last-
       flex-flow: row-reverse;
     }
 
-    .clients-text-container div {
+    .clients-text-container  {
       height: 100%;
-      display: flex;
       align-items: center;
       margin: 0 auto;
+      div {
+        align-items: center;
+        margin: 0 auto;
+      }
     }
   }
 
@@ -829,6 +832,7 @@ div.wpforms-container-full .wpforms-form .wpforms-field .wpforms-field-row:last-
 .seventh-section {
   background-color:#222;
   color:White;
+  padding-top:50px;
 }
 
 @media only screen and (max-width: 768px) {

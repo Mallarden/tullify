@@ -401,9 +401,6 @@ section .section-wrapper ul {
 
 .second-section {
   background-color: white;
-  -moz-box-shadow: inset 0 0 10px #000000;
-  -webkit-box-shadow: inset 0 0 10px #000000;
-  box-shadow: inset 0 0 10px #000000;
 }
 .second-section .section-wrapper {
   width: 65%;
@@ -551,6 +548,10 @@ div.wpforms-container-full .wpforms-form .wpforms-field .wpforms-field-row:last-
   max-width: 100% !important;
 }
 
+div.wpforms-container-full .wpforms-form input.wpforms-field-medium {
+  max-width: 100% !important;
+}
+
 .services-first-section {
   margin-top: 75vh;
 }
@@ -578,9 +579,12 @@ div.wpforms-container-full .wpforms-form .wpforms-field .wpforms-field-row:last-
 .services-second-section .case-container:nth-child(odd) {
   flex-flow: row-reverse;
 }
-.services-second-section .case-container .clients-text-container div {
+.services-second-section .case-container .clients-text-container {
   height: 100%;
-  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.services-second-section .case-container .clients-text-container div {
   align-items: center;
   margin: 0 auto;
 }
@@ -760,6 +764,7 @@ footer div p {
 .seventh-section {
   background-color: #222;
   color: White;
+  padding-top: 50px;
 }
 
 @media only screen and (max-width: 768px) {
