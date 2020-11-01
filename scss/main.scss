@@ -600,9 +600,8 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium {
     }
 
     .clients-text-container  {
-      height: 100%;
       align-items: center;
-      margin: 0 auto;
+      display:flex;
       div {
         align-items: center;
         margin: 0 auto;

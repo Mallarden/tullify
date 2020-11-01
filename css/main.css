@@ -580,9 +580,8 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium {
   flex-flow: row-reverse;
 }
 .services-second-section .case-container .clients-text-container {
-  height: 100%;
   align-items: center;
-  margin: 0 auto;
+  display: flex;
 }
 .services-second-section .case-container .clients-text-container div {
   align-items: center;
