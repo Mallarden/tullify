@@ -37,25 +37,25 @@ get_header(); ?>
     <h1 class="text-center"><strong>Vår expertis</strong></h1>
       <div class="section-wrapper row">
       <div class="row our-expertise">
-        <div class="col-lg-3 col-md-6 col-sm-12 p-0 fade-y" data-delighter="start:0.95;">
+        <div class="col-lg-3 col-md-6 col-sm-12 fade-y" data-delighter="start:0.95;">
           <div class="clients-container">
             <video class="myvideos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/passport.mp4" type="video/mp4" preload="" autoplay="true" playsinline="true" webkit-playsinline="true" muted="" width="100%" height="auto" alt=""></video>
             <h2>Exporthantering</h2>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 p-0 fade-y middle-animation" data-delighter="start:0.95;">
+        <div class="col-lg-3 col-md-6 col-sm-12 fade-y middle-animation" data-delighter="start:0.95;">
           <div class="clients-container">
             <video class="myvideos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/delivery.mp4" type="video/mp4" preload="" autoplay="true" playsinline="true" webkit-playsinline="true" muted="" width="100%" height="auto" alt=""></video>
             <h2>Rådgivning</h2>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 p-0 fade-y" data-delighter="start:0.95;">
+        <div class="col-lg-3 col-md-6 col-sm-12 fade-y" data-delighter="start:0.95;">
           <div class="clients-container">
             <video class="myvideos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/handshake.mp4" type="video/mp4" preload="" autoplay="true" playsinline="true" webkit-playsinline="true" muted="" width="100%" height="auto" alt=""></video>
             <h2>Klassificering</h2>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 p-0 fade-y" data-delighter="start:0.95;">
+        <div class="col-lg-3 col-md-6 col-sm-12 fade-y" data-delighter="start:0.95;">
           <div class="clients-container">
             <video class="myvideos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/anteckningar.mp4" 
             type="video/mp4" preload="" autoplay="true" playsinline="true" webkit-playsinline="true" muted="" width="100%" height="auto" alt=""></video>
@@ -68,7 +68,7 @@ get_header(); ?>
       </div>
     </section>
     <section class="third-section">
-      <div class="">
+      <div class="third-section-container">
       <p><?php the_field('sektion_2'); ?></p>
 
         </div>
@@ -95,7 +95,7 @@ get_header(); ?>
 
   </section>
   <div class="wave-bottom"></div>
-  <section class="fifth-section">
+  <section class="fifth-section pt-0">
     <div class="section-wrapper">
       <?php if( have_rows('sektion_4') ):
               while ( have_rows('sektion_4') ) : the_row(); ?>
@@ -121,10 +121,7 @@ get_header(); ?>
     <?php endwhile;	else :endif; ?>
     </div>
   </section>
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2131.6518343952357!2d11.991958416007227!3d57.705384781120394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff382166ab325%3A0xd071d2dad48d24c9!2sDrakegatan%207%2C%20412%2050%20G%C3%B6teborg!5e0!3m2!1ssv!2sse!4v1601044490523!5m2!1ssv!2sse"
-    width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="true" aria-hidden="false"
-    tabindex="0"></iframe>
+
 </div><!-- #primary -->
 
 <?php get_footer();
