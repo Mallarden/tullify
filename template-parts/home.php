@@ -97,6 +97,7 @@ get_header(); ?>
   <div class="wave-bottom"></div>
   <section class="fifth-section pt-0">
     <div class="section-wrapper">
+      <div class="container">
       <?php if( have_rows('sektion_4') ):
               while ( have_rows('sektion_4') ) : the_row(); ?>
                <div class="row">
@@ -119,6 +120,7 @@ get_header(); ?>
     </div>
     <hr/>
     <?php endwhile;	else :endif; ?>
+    </div>
     </div>
   </section>
 

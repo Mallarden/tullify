@@ -353,7 +353,7 @@ section {
 
   .section-wrapper {
     padding: 100px 0px 150px 0px;
-    width: 60%;
+    // width: 60%;
     margin: 0 auto;
     // max-width:960px;
     justify-content: space-between;
@@ -602,10 +602,6 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium {
     .clients-text-container  {
       align-items: center;
       display:flex;
-      div {
-        align-items: center;
-        margin: 0 auto;
-      }
     }
   }
 
