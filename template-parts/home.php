@@ -93,7 +93,7 @@ get_header(); ?>
           </div>
         </div>
         <div class="col-md-12 col-lg-12 col-sm-12 fade-y citat-text">
-          <div class="pt-2 w-100"><?php the_sub_field('personbeskrivning')?></div>
+          <div class="pt-4 w-100"><?php the_sub_field('personbeskrivning')?></div>
         </div>
       </div>
    
