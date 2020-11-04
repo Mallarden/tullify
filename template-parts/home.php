@@ -92,9 +92,7 @@ get_header(); ?>
               style="background-image:url('<?php the_sub_field('personbild'); ?>')"></div>
             <div class="col-xs-12 col-sm-12 fade-y pt-4" style="max-width: max-content;
     margin: 0 auto; text-align:center;">
-              <p><?php the_sub_field('personinfo');?> </p>
-            </div>
-           
+                </div>       
           </div>
         </div>
         <div class="col-md-12 col-lg-12 col-sm-12 fade-y citat-text">
