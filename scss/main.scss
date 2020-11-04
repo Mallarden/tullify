@@ -153,9 +153,10 @@ body {
   .first-section {
     h1 {
       strong {
-        text-decoration: underline;
-        text-decoration-color: #1FC2C2;
-        text-underline-position: under;
+        // text-decoration: underline;
+        // text-decoration-color: #1FC2C2;
+        // text-underline-position: under;
+        color:#1FC2C2;
       }
     }
     .section-wrapper {
@@ -243,7 +244,7 @@ body {
   &.wave-bottom {
     &:after {
       bottom: 0;
-      background-image: url("https://triss.dev/examples/wave.php?color=white&orientation=0deg");
+      background-image: url("https://triss.dev/examples/wave.php?color=transparent&orientation=0deg");
     }
   }
 
@@ -275,8 +276,8 @@ body {
     h1 {
       color: white;
       font-size: calc(34px + (46 - 10) * ((100vw - 900px) / (1100 - 300)));
-      text-decoration: underline;
-      text-decoration-color: #1FC2C2;
+      // text-decoration: underline;
+      // text-decoration-color: #1FC2C2;
       font-weight: bold;
     }
   }
@@ -392,8 +393,11 @@ section {
 }
 
 .second-section {
-  background-color: white;
+  background-color: $blue;
 
+  h1 strong {
+    color:white;
+  }
   .section-wrapper {
     width: 65%;
 
@@ -401,11 +405,12 @@ section {
       width: 100%;
 
       .clients-container {
-        video {
-          object-fit: cover;
-          width: 200px;
+        color:white;
+        img { 
+          max-width: 50%;
           margin: 0 auto;
           display: block;
+          padding-bottom: 15px;
         }
       }
 
@@ -418,7 +423,7 @@ section {
 
 .third-section {
   background-color: white;
-  padding: 100px 0px 150px 0px;
+  padding-top:0px !important;
   h1 {
     text-align: center;
     // padding-bottom: 50px;
@@ -466,7 +471,6 @@ section {
   background-color: #222;
 
   .section-wrapper {
-    padding-bottom: 0px;
   }
 
   .fourth-section-content {
@@ -488,7 +492,6 @@ section {
     border-radius: 50%;
     background-size: cover;
     background-position: center;
-    filter: grayscale(100%);
   }
 
   .section-wrapper .row {

@@ -1,16 +1,9 @@
 			<!-- footer -->
-			<section class="sixth-section">
-				<h2 class="pb-4 pt-4 text-center text-white"><strong>Besök oss!</strong></h2>
-				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2131.6518343952357!2d11.991958416007227!3d57.705384781120394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff382166ab325%3A0xd071d2dad48d24c9!2sDrakegatan%207%2C%20412%2050%20G%C3%B6teborg!5e0!3m2!1ssv!2sse!4v1601044490523!5m2!1ssv!2sse"
-					width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="true" aria-hidden="false"
-					tabindex="0">
-				</iframe>
-			</section>
+		
 			<section class="seventh-section">
 			<div class="container">
 
-				<h2 class="pb-4 text-center"><strong>Eller kontakta oss!</strong></h2>
+				<h2 class="pb-4 text-center"><strong>Kontakta oss!</strong></h2>
 				<? echo do_shortcode( '[wpforms id="285" title="false" description="false"]' ); ?>
 		</div>
 			</section>

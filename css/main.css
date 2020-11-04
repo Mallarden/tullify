@@ -204,9 +204,7 @@ body header .support-btn {
   padding-top: 150px;
 }
 .section-start .first-section h1 strong {
-  text-decoration: underline;
-  text-decoration-color: #1FC2C2;
-  text-underline-position: under;
+  color: #1FC2C2;
 }
 .section-start .first-section .section-wrapper {
   padding: 0px 0px 150px 0px;
@@ -282,7 +280,7 @@ body header .support-btn {
 }
 .wave-bottom.wave-bottom:after {
   bottom: 0;
-  background-image: url("https://triss.dev/examples/wave.php?color=white&orientation=0deg");
+  background-image: url("https://triss.dev/examples/wave.php?color=transparent&orientation=0deg");
 }
 .wave-bottom.wave-top:after {
   top: 0;
@@ -309,8 +307,6 @@ body header .support-btn {
 .hero-image .hero-text h1 {
   color: white;
   font-size: calc(34px + (46 - 10) * ((100vw - 900px) / (1100 - 300)));
-  text-decoration: underline;
-  text-decoration-color: #1FC2C2;
   font-weight: bold;
 }
 .hero-image video {
@@ -399,7 +395,10 @@ section .section-wrapper ul {
 }
 
 .second-section {
-  background-color: white;
+  background-color: #1FC2C2;
+}
+.second-section h1 strong {
+  color: white;
 }
 .second-section .section-wrapper {
   width: 65%;
@@ -407,15 +406,18 @@ section .section-wrapper ul {
 .second-section .section-wrapper .our-expertise {
   width: 100%;
 }
-.second-section .section-wrapper .our-expertise .clients-container video {
-  object-fit: cover;
-  width: 200px;
+.second-section .section-wrapper .our-expertise .clients-container {
+  color: white;
+}
+.second-section .section-wrapper .our-expertise .clients-container img {
+  max-width: 50%;
   margin: 0 auto;
   display: block;
+  padding-bottom: 15px;
 }
 .third-section {
   background-color: white;
-  padding: 100px 0px 150px 0px;
+  padding-top: 0px !important;
 }
 .third-section h1 {
   text-align: center;
@@ -457,9 +459,6 @@ section .section-wrapper ul {
 .fourth-section {
   background-color: #222;
 }
-.fourth-section .section-wrapper {
-  padding-bottom: 0px;
-}
 .fourth-section .fourth-section-content {
   width: 50%;
 }
@@ -477,7 +476,6 @@ section .section-wrapper ul {
   border-radius: 50%;
   background-size: cover;
   background-position: center;
-  filter: grayscale(100%);
 }
 .fifth-section .section-wrapper .row {
   margin: 25px 0px;
