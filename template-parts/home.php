@@ -11,8 +11,6 @@ get_header(); ?>
       <h1>TULLIFY - We simplify customs.</h1>
     </div>
   </div>
-  <? echo do_shortcode("[ps2id url='#home']link text[/ps2id]")?>
-
   <div class="hero-text-container">
     <div class="hero-title">
     </div>
@@ -82,29 +80,32 @@ get_header(); ?>
 
     <div class="section-wrapper">
     <h1 class="pt-5 text-center"><strong>Om oss</strong></h1>
-      <div class="container">
+      <div class="container-fluid">
+      <div class="row">
       <?php if( have_rows('sektion_4') ):
               while ( have_rows('sektion_4') ) : the_row(); ?>
-               <div class="row">
+      <div class="col-lg-6">
       <div class="citat-wrapper" style="width:100%;" data-delighter="start:0.90;">
-        <div class="col-sm-12 col-lg-4 pr-0 fade-y">
+        <div class="col-sm-12 col-lg-12 pr-0 fade-y">
           <div class="our-team-img-info">
             <div class="col-xs-12 col-sm-12 fade-y personbild pt-5"
               style="background-image:url('<?php the_sub_field('personbild'); ?>')"></div>
             <div class="col-xs-12 col-sm-12 fade-y pt-4" style="max-width: max-content;
     margin: 0 auto; text-align:center;">
-              <p><?php the_sub_field('personinfo');?>
+              <p><?php the_sub_field('personinfo');?> </p>
             </div>
-            </p>
+           
           </div>
         </div>
-        <div class="col-md-12 col-lg-8 col-sm-12 fade-y citat-text">
+        <div class="col-md-12 col-lg-12 col-sm-12 fade-y citat-text">
           <div class="pt-2"><?php the_sub_field('personbeskrivning')?></div>
         </div>
       </div>
-    </div>
+   
     <hr/>
+    </div>
     <?php endwhile;	else :endif; ?>
+    </div>
     </div>
     </div>
   </section>
