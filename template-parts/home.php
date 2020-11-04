@@ -86,14 +86,14 @@ get_header(); ?>
               while ( have_rows('sektion_4') ) : the_row(); ?>
       <div class="col-lg-6">
       <div class="citat-wrapper" style="width:100%;" data-delighter="start:0.90;">
-        <div class="col-sm-12 col-lg-12 pr-0 fade-y">
+        <div class="col-sm-12 col-lg-12 fade-y">
           <div class="our-team-img-info">
             <div class="col-xs-12 col-sm-12 fade-y personbild pt-5"
               style="background-image:url('<?php the_sub_field('personbild'); ?>')"></div>
           </div>
         </div>
         <div class="col-md-12 col-lg-12 col-sm-12 fade-y citat-text">
-          <div class="pt-2"><?php the_sub_field('personbeskrivning')?></div>
+          <div class="pt-2 w-100"><?php the_sub_field('personbeskrivning')?></div>
         </div>
       </div>
    
