@@ -309,6 +309,14 @@ body header .support-btn {
   font-size: calc(34px + (46 - 10) * ((100vw - 900px) / (1100 - 300)));
   font-weight: bold;
 }
+.hero-image .hero-text h1 span {
+  border-right: 0.15em solid #1FC2C2;
+  /* The typwriter cursor */
+  animation: typing 3.5s steps(30, end), blink-caret 1s step-end infinite;
+}
+.hero-image .txt-rotate > .wrap {
+  border: 0;
+}
 .hero-image video {
   object-fit: cover;
   width: 100vw;
@@ -322,6 +330,24 @@ body header .support-btn {
   display: none;
 }
 
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #1FC2C2;
+  }
+}
 .player .vp-sidedock {
   display: none !important;
 }
@@ -479,6 +505,7 @@ section .section-wrapper ul {
 }
 .fifth-section .section-wrapper .row {
   margin: 25px 0px;
+  grid-row-gap: 50px;
 }
 .fifth-section .citat-wrapper {
   width: 90% !important;

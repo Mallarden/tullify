@@ -8,7 +8,14 @@ get_header(); ?>
 
   <div class="hero-image">  
     <div class="hero-text d-flex">
-      <h1>TULLIFY - We simplify customs.</h1>
+      <!-- <h1>TULLIFY - We simplify customs.</h1> -->
+      <h1>TULLIFY - We
+  <span
+     class="txt-rotate"
+     data-period="2000"
+     data-rotate='[ "simplify", "love", "breath", "know", "ARE" ]'></span>
+      customs.
+</h1>
     </div>
   </div>
   <div class="hero-text-container">
@@ -84,7 +91,7 @@ get_header(); ?>
       <div class="row">
       <?php if( have_rows('sektion_4') ):
               while ( have_rows('sektion_4') ) : the_row(); ?>
-      <div class="col-lg-6">
+      <div class="col-lg-6 col-sm-12">
       <div class="citat-wrapper" style="width:100%;" data-delighter="start:0.90;">
         <div class="col-sm-12 col-lg-12 fade-y">
           <div class="our-team-img-info">

@@ -255,7 +255,9 @@ body {
     }
   }
 }
-
+// span .wrap {
+//   border-right: 5px solid $blue !important;
+// }
 .hero-image {
   background-image: url('../img/container.jpg');
   background-repeat: no-repeat;
@@ -279,9 +281,18 @@ body {
       // text-decoration: underline;
       // text-decoration-color: #1FC2C2;
       font-weight: bold;
+   
+      span {
+        border-right: .15em solid $blue; /* The typwriter cursor */
+        animation: 
+        typing 3.5s steps(30, end),
+        blink-caret 1s step-end infinite;
+      }
     }
   }
-
+.txt-rotate > .wrap {
+  border:0;
+}
   video {
     object-fit: cover;
     width: 100vw;
@@ -295,6 +306,17 @@ body {
   .text-animation {
     display: none;
   }
+}
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: $blue }
 }
 
 .player .vp-sidedock {
@@ -496,6 +518,7 @@ section {
 
   .section-wrapper .row {
     margin: 25px 0px;
+    grid-row-gap: 50px;
   }
 
   .citat-wrapper {
