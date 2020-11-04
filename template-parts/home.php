@@ -6,10 +6,10 @@ get_header(); ?>
 <div id="primary" class="content">
   <div class="hero-image">  
     <div class="hero-text d-flex">
+    <? echo do_shortcode( '[ps2id url="#home"][/ps2id]' ); ?>
       <h1>TULLIFY - We simplify customs.</h1>
     </div>
   </div>
-
   <div class="hero-text-container">
     <div class="hero-title">
     </div>
@@ -34,6 +34,8 @@ get_header(); ?>
     </section>
     <section class="second-section card-3">
     <h1 class="text-center"><strong>Våra tjänster</strong></h1>
+    <? echo do_shortcode( '[ps2id url="#tjanster"][/ps2id]' ); ?>
+
       <div class="section-wrapper row">
       <div class="row our-expertise">
       <?php if( have_rows('sektion_2') ):
@@ -76,6 +78,7 @@ get_header(); ?>
 
     <div class="section-wrapper">
     <h1 class="pt-5 text-center"><strong>Om oss</strong></h1>
+    <? echo do_shortcode( '[ps2id url="#omoss"][/ps2id]' ); ?>
 
       <div class="container">
       <?php if( have_rows('sektion_4') ):
