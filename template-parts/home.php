@@ -4,12 +4,15 @@
 */
 get_header(); ?>
 <div id="primary" class="content">
+<? the_field('pointer_home') ?>
+
   <div class="hero-image">  
     <div class="hero-text d-flex">
-    <? echo do_shortcode( '[ps2id url="#home"][/ps2id]' ); ?>
       <h1>TULLIFY - We simplify customs.</h1>
     </div>
   </div>
+  <? echo do_shortcode("[ps2id url='#home']link text[/ps2id]")?>
+
   <div class="hero-text-container">
     <div class="hero-title">
     </div>
@@ -32,9 +35,9 @@ get_header(); ?>
       </div>
       </div>
     </section>
+    <? the_field('pointer_tjanster') ?>
     <section class="second-section card-3">
     <h1 class="text-center"><strong>Våra tjänster</strong></h1>
-    <? echo do_shortcode( '[ps2id url="#tjanster"][/ps2id]' ); ?>
 
       <div class="section-wrapper row">
       <div class="row our-expertise">
@@ -75,11 +78,10 @@ get_header(); ?>
   <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/_LIT75442.jpg"/>
       </section>
   <section class="fifth-section pt-0">
+  <? the_field('pointer_omoss') ?>
 
     <div class="section-wrapper">
     <h1 class="pt-5 text-center"><strong>Om oss</strong></h1>
-    <? echo do_shortcode( '[ps2id url="#omoss"][/ps2id]' ); ?>
-
       <div class="container">
       <?php if( have_rows('sektion_4') ):
               while ( have_rows('sektion_4') ) : the_row(); ?>
@@ -108,5 +110,6 @@ get_header(); ?>
   </section>
 
 </div><!-- #primary -->
+<? the_field('pointer_kontakt') ?>
 
 <?php get_footer();
