@@ -15,32 +15,30 @@
 							<p>Address</p>
 						</b>
 						<ul>
-							<li>48 Warwick Street</li>
-							<li>London, W1B 5AW</li>
-							<li>UNITED KINGDOM</li>
+							<li>Paternostergatan 12, vån 6</li>
+							<li>414 67 Göteborg</li>
+							<li>Sverige</li>
 						</ul>
 					</div>
 					<div class="col-lg-6">
 						<div class="icon-wrapper d-flex">
-							<a href="https://www.facebook.com/Dynamisinvestment" target="_blank"><i
-									class="fa fa-facebook-f"></i></a>
-							<a href="https://vimeo.com/dynamisinvestment" target="_blank"><i class="fa fa-vimeo"></i></a>
-							<a href="https://www.linkedin.com/company/dynamisinvestmentpartners/" target="_blank"><i
-									class="fa fa-linkedin"></i></a>
+							<a href="" target="_blank"><i class="fa fa-facebook-f"></i></a>
+							<a href="" target="_blank"><i class="fa fa-twitter"></i></a>
+							<a href="" target="_blank"><i class="fa fa-linkedin"></i></a>
 						</div>
 					</div>
 					<div class="col-lg-3 side-col">
 						<b>
-							<p>PHONE & EMAIL</p>
+							<p>Telefon & Email</p>
 						</b>
 						<ul>
-							<li>+44203 542 0986</li>
-							<li>info@tullify.com</li>
+							<li>+46 76-890 12 56</li>
+							<li>info@tullify.se</li>
 						</ul>
 					</div>
 				</div>
 				<p class="copyright mt-3">
-				All rights reserved Northmire
+				All rights reserved Tullify AB
 			</p>
 			</footer>
 			<!-- /footer -->

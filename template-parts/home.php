@@ -9,12 +9,12 @@ get_header(); ?>
   <div class="hero-image">  
     <div class="hero-text d-flex">
       <!-- <h1>TULLIFY - We simplify customs.</h1> -->
-      <h1>TULLIFY - We
+      <h1>
   <span
      class="txt-rotate"
-     data-period="2000"
-     data-rotate='[ "simplify", "love", "breath", "know", "ARE" ]'></span>
-      customs.
+     data-period="99999999"
+     data-rotate='[ "TULLIFY - We know Customs." ]'>
+    </span>
 </h1>
     </div>
   </div>
@@ -80,7 +80,7 @@ get_header(); ?>
 
   </section>
   <section class="third-section card-3">
-  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/_LIT75442.jpg"/>
+  <img class="w-100" src="<?php echo get_stylesheet_directory_uri(); ?>/img/_LIT7544fixed.jpg"/>
       </section>
   <section class="fifth-section pt-0">
   <? the_field('pointer_omoss') ?>
