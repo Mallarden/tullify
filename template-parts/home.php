@@ -13,7 +13,7 @@ get_header(); ?>
   <span
      class="txt-rotate"
      data-period="99999999"
-     data-rotate='[ "TULLIFY - We know Customs." ]'>
+     data-rotate='[ "TULLIFY - We simplify customs." ]'>
     </span>
 </h1>
     </div>
