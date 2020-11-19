@@ -417,9 +417,16 @@ section {
 
 .second-section {
   background-color: $blue;
-
-  h1 strong {
-    color:white;
+  h4 {
+    font-weight:bold;
+    font-size:2rem;
+  }
+  h1 {
+    strong {
+      color:white;
+      text-transform: uppercase;
+      font-size:58px;
+    }
   }
   .section-wrapper {
     width: 75%;
@@ -434,6 +441,11 @@ section {
           margin: 0 auto;
           display: block;
           padding-bottom: 15px;
+        }
+        h2 {
+          strong {
+            font-size:32px;
+          }
         }
       }
 
@@ -501,6 +513,11 @@ section {
 
     h2 {
       color: white;
+      text-transform: uppercase;
+    }
+    h4 {
+      font-size:2rem;
+      font-weight:bold;
     }
   }
 }
@@ -516,9 +533,12 @@ section {
     background-size: cover;
     background-position: center;
   }
-
+  h1 {
+    font-size:58px;
+    text-transform: uppercase;
+  }
   .section-wrapper .row {
-    margin: 25px 0px;
+    margin:0px 0px;
     grid-row-gap: 50px;
   }
 
@@ -534,7 +554,7 @@ section {
   }
 
   .row {
-    padding: 50px 0px;
+    padding: 0px 0px;
   }
 }
 
@@ -591,6 +611,7 @@ footer {
 .copyright {
   text-align: center;
   color: white;
+  font-weight:bold;
 }
 div.wpforms-container-full .wpforms-form .wpforms-field .wpforms-field-row:last-of-type {
   max-width:100% !important;
@@ -866,6 +887,9 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium {
   background-color:#222;
   color:White;
   padding-top:50px;
+  h2 {
+    text-transform: uppercase;
+  }
 }
 
 @media only screen and (max-width: 768px) {

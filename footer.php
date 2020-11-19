@@ -8,7 +8,7 @@
 		</div>
 			</section>
 			<footer class="footer" role="contentinfo">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/logo-white2.png" alt="Logo" class="logo-img">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/vit-3.png" alt="Logo" class="logo-img">
 				<div class="row footer-container">
 					<div class="col-lg-3 side-col">
 						<b>

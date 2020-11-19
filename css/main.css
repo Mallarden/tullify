@@ -424,8 +424,14 @@ section .section-wrapper ul {
 .second-section {
   background-color: #1FC2C2;
 }
+.second-section h4 {
+  font-weight: bold;
+  font-size: 2rem;
+}
 .second-section h1 strong {
   color: white;
+  text-transform: uppercase;
+  font-size: 58px;
 }
 .second-section .section-wrapper {
   width: 75%;
@@ -441,6 +447,9 @@ section .section-wrapper ul {
   margin: 0 auto;
   display: block;
   padding-bottom: 15px;
+}
+.second-section .section-wrapper .our-expertise .clients-container h2 strong {
+  font-size: 32px;
 }
 .third-section {
   background-color: white;
@@ -491,6 +500,11 @@ section .section-wrapper ul {
 }
 .fourth-section .fourth-section-content h2 {
   color: white;
+  text-transform: uppercase;
+}
+.fourth-section .fourth-section-content h4 {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .fifth-section {
@@ -504,8 +518,12 @@ section .section-wrapper ul {
   background-size: cover;
   background-position: center;
 }
+.fifth-section h1 {
+  font-size: 58px;
+  text-transform: uppercase;
+}
 .fifth-section .section-wrapper .row {
-  margin: 25px 0px;
+  margin: 0px 0px;
   grid-row-gap: 50px;
 }
 .fifth-section .citat-wrapper {
@@ -518,7 +536,7 @@ section .section-wrapper ul {
   align-items: center;
 }
 .fifth-section .row {
-  padding: 50px 0px;
+  padding: 0px 0px;
 }
 
 footer {
@@ -567,6 +585,7 @@ footer .footer-container .side-col {
 .copyright {
   text-align: center;
   color: white;
+  font-weight: bold;
 }
 
 div.wpforms-container-full .wpforms-form .wpforms-field .wpforms-field-row:last-of-type {
@@ -614,7 +633,7 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium {
 }
 
 .blog-hero {
-  background-image: url("../img/container-peka.jpg");
+  background-image: url("../img/LIT7594.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
@@ -796,6 +815,9 @@ footer div p {
   background-color: #222;
   color: White;
   padding-top: 50px;
+}
+.seventh-section h2 {
+  text-transform: uppercase;
 }
 
 @media only screen and (max-width: 768px) {
