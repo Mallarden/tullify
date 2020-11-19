@@ -42,28 +42,33 @@ get_header(); ?>
     </section>
     <? the_field('pointer_tjanster') ?>
     <section class="second-section card-3">
+    <div>
     <h1 class="text-center"><strong>Våra tjänster</strong></h1>
+    <h4 class="text-center text-white" style="width: 90%; margin: 0 auto;">Du gör det som du är bra på, vi gör det som vi är bra på, deal?</h4>
 
       <div class="section-wrapper row">
-      <div class="row our-expertise">
+      <div class="row ml-0 mr-0 our-expertise">
       <?php if( have_rows('sektion_2') ):
 							while ( have_rows('sektion_2') ) : the_row(); ?>
         <div class="col-lg-3 col-md-6 col-sm-12 fade-y" data-delighter="start:0.95;">
           <div class="clients-container">
             <img src="<? the_sub_field('our_expertise_image');?>"/>
-            <div><? the_sub_field('our_expertise_text');?></div>
+            <div style="width: 90%;
+    margin: 0 auto;"><? the_sub_field('our_expertise_text');?></div>
           </div>
         </div>
         <?php endwhile;	else :endif; ?>
         </div>
       </div>
+      </div>
       </section>
     <section class="fourth-section">
       <div class="section-wrapper fourth-section-content">
         <h2 class="fade-y" data-delighter="start:0.96;"><strong>Väx tillsammans med oss!</strong></h2>
+        <h4 class="text-center text-white">Vi är nystartade och är på ständig jakt efter nya samarbeten.</h4>
           <?php if( have_rows('sektion_3') ):
 							while ( have_rows('sektion_3') ) : the_row(); ?>
-        <div class="row">
+        <div class="ml-0 mr-0 row">
           <div class="col-sm-12">
             <div class="d-flex pt-2" style="flex-flow: no-wrap;">
               <?php if( have_rows('direct_impact') ):

@@ -90,6 +90,7 @@ h4 {
 
 h2 {
   font-weight: bolder;
+  font-size: 58px !important;
 }
 
 #primary {
@@ -427,7 +428,7 @@ section .section-wrapper ul {
   color: white;
 }
 .second-section .section-wrapper {
-  width: 65%;
+  width: 75%;
 }
 .second-section .section-wrapper .our-expertise {
   width: 100%;
@@ -612,7 +613,7 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium {
   background-size: cover;
 }
 
-.tjanster-hero-image {
+.blog-hero {
   background-image: url("../img/container-peka.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -623,7 +624,7 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium {
   width: 100%;
   display: flex;
 }
-.tjanster-hero-image .flex-container {
+.blog-hero .flex-container {
   height: 75vh;
   padding: 0;
   margin: 0;
@@ -632,10 +633,11 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium {
   justify-content: center;
   color: white;
 }
-.tjanster-hero-image .flex-container h1 {
+.blog-hero .flex-container h1 {
   font-size: calc(34px + (36 - 10) * ((100vw - 900px) / (1100 - 300)));
+  font-weight: bold;
 }
-.tjanster-hero-image video {
+.blog-hero video {
   object-fit: cover;
   width: 100vw;
   height: 50vh;
@@ -643,7 +645,7 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium {
   top: 0;
   left: 0;
 }
-.tjanster-hero-image .text-animation {
+.blog-hero .text-animation {
   display: none;
 }
 
@@ -676,6 +678,11 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium {
   }
 }
 @media only screen and (max-width: 1024px) {
+  .second-section div {
+    width: 100%;
+    margin: 0 auto;
+  }
+
   .section-start > section {
     padding-top: 50px;
   }
@@ -706,11 +713,16 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium {
   }
 }
 @media only screen and (max-width: 991px) {
+  h2 {
+    font-weight: bolder;
+    font-size: 28px !important;
+  }
+
   section .section-wrapper {
     padding: 50px 0px 150px 0px;
   }
   section .section-wrapper .our-expertise .col-sm-12 {
-    padding-top: 25px;
+    padding-top: 50px;
   }
 
   .citat-wrapper {

@@ -12,9 +12,10 @@
 				<div class="row footer-container">
 					<div class="col-lg-3 side-col">
 						<b>
-							<p>Address</p>
+							<p style="color:#1FC2C2; font-size:1.2em; margin-bottom: 0.5rem;">Adress</p>
 						</b>
 						<ul>
+							<li>Tullify AB</li>
 							<li>Paternostergatan 12, vån 6</li>
 							<li>414 67 Göteborg</li>
 							<li>Sverige</li>
@@ -23,13 +24,13 @@
 					<div class="col-lg-6">
 						<div class="icon-wrapper d-flex">
 							<a href="" target="_blank"><i class="fa fa-facebook-f"></i></a>
-							<a href="" target="_blank"><i class="fa fa-twitter"></i></a>
+							<a href="" target="_blank"><i class="fa fa-instagram"></i></a>
 							<a href="" target="_blank"><i class="fa fa-linkedin"></i></a>
 						</div>
 					</div>
 					<div class="col-lg-3 side-col">
 						<b>
-							<p>Telefon & Email</p>
+							<p style="color:#1FC2C2; font-size:1.2em; margin-bottom: 0.5rem;">Kontaktinformation</p>
 						</b>
 						<ul>
 							<li>+46 76-890 12 56</li>
@@ -37,7 +38,7 @@
 						</ul>
 					</div>
 				</div>
-				<p class="copyright mt-3">
+				<p class="copyright mt-3" style="color:#1FC2C2;">
 				All rights reserved Tullify AB
 			</p>
 			</footer>

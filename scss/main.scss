@@ -12,6 +12,7 @@ h4 {
 
 h2 {
   font-weight: bolder;
+  font-size:58px !important;
 }
 
 #primary {
@@ -421,7 +422,7 @@ section {
     color:white;
   }
   .section-wrapper {
-    width: 65%;
+    width: 75%;
 
     .our-expertise {
       width: 100%;
@@ -637,7 +638,7 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium {
   }
 }
 
-.tjanster-hero-image {
+.blog-hero {
   background-image: url('../img/container-peka.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -651,7 +652,7 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium {
   .flex-container {
     h1 {
       font-size: calc(34px + (36 - 10) * ((100vw - 900px) / (1100 - 300)));
-
+      font-weight:bold;
     }
     height: 75vh;
     padding: 0;
@@ -675,6 +676,8 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium {
     display: none;
   }
 }
+
+
 
 /*------------------------------------*\
     RESPONSIVE
@@ -711,8 +714,13 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium {
 }
 
 @media only screen and (max-width: 1024px) {
+  .second-section div  {
+    width:100%;
+    margin:0 auto;
+  }
   .section-start > section {
     padding-top:50px;
+   
   }
   .third-section {
     .third-section-container {
@@ -756,10 +764,14 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium {
 }
 
 @media only screen and (max-width: 991px) {
+  h2 {
+    font-weight: bolder;
+    font-size:28px !important;
+  }
   section .section-wrapper {
     padding:50px 0px 150px 0px;
     .our-expertise .col-sm-12 {
-      padding-top:25px;
+      padding-top:50px;
     }
   }
 
