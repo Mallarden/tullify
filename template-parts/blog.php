@@ -34,7 +34,7 @@ get_header(); ?>
             <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
                 <div class="blog-item pt-5 pb-5 row">
                     <div class="col-sm-12 text-part">
-                    <?php the_title( '<h1 class="text-center mb-0">', '</h1>' ); ?>
+                    <?php the_title( '<h1 class="text-center" style="font-weight:bold;">', '</h1>' ); ?>
                         <h5 class="text-center"><? $post_date = get_the_date( 'D M j' ); echo $post_date; ?></h5>
                     <?php the_content(); ?>
                     </div>
