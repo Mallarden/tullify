@@ -785,6 +785,12 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium {
 }
 
 @media only screen and (max-width: 991px) {
+  .hero-image .hero-text h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
   h2 {
     font-weight: bolder;
     font-size:28px !important;
