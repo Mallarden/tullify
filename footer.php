@@ -23,9 +23,9 @@
 					</div>
 					<div class="col-lg-6">
 						<div class="icon-wrapper d-flex">
-							<a href="" target="_blank"><i class="fa fa-facebook-f"></i></a>
-							<a href="" target="_blank"><i class="fa fa-instagram"></i></a>
-							<a href="" target="_blank"><i class="fa fa-linkedin"></i></a>
+							<a href="https://www.facebook.com/tullify" target="_blank"><i class="fa fa-facebook-f"></i></a>
+							<a href="https://www.instagram.com/tullify.se/" target="_blank"><i class="fa fa-instagram"></i></a>
+							<a href="https://www.linkedin.com/company/tullify" target="_blank"><i class="fa fa-linkedin"></i></a>
 						</div>
 					</div>
 					<div class="col-lg-3 side-col">
