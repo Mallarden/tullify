@@ -6,13 +6,11 @@ get_header(); ?>
 <div id="primary" class="content">
 <div class="tjanster-hero-image">
     <div class="container text-center">
-      <div> 
         <div class="flex-container">
           <div class="row d-block">
             <div class="flex-item"><? the_field('tjanster_hero_text')?></div>
           </div>
         </div>
-      </div>
     </div>
   </div>
     <section class="services-first-section">
