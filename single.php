@@ -24,7 +24,7 @@
 			<!-- /post title -->
 
 			<!-- post details -->
-			<span class="date"><?php the_time('F j, Y'); ?> <?php the_time('g:i a'); ?></span>
+			<span class="date"><?php the_time('Y-m-d'); ?></span>
 			<!-- /post details -->
 
 			<?php the_content(); // Dynamic Content ?>
