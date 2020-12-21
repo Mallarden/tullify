@@ -35,7 +35,7 @@ get_header(); ?>
                 <div class="blog-item pt-5 pb-5 row">
                     <div class="col-sm-12 text-part">
                     <?php the_title( '<h1 class="text-center" style="font-weight:bold;">', '</h1>' ); ?>
-                        <h5 class="text-center"><? $post_date = get_the_date( 'D M j' ); echo $post_date; ?></h5>
+                        <h5 class="text-center"><? $post_date = get_the_date( 'Y-m-d' ); echo $post_date; ?></h5>
                     <?php the_content(); ?>
                     </div>
                 </div>
