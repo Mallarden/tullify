@@ -14,7 +14,7 @@ get_header(); ?>
         </div>
     </div>
     </div>
-    <section class="services-first-section">
+    <section class="services-first-section" style="background-color:#fff;">
         <div class="container">
         <?php while ( have_posts() ) : the_post(); ?>
             <!-- <?php the_title( '<h1>', '</h1>' ); ?> -->
