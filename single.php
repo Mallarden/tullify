@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-	<main role="main">
+	<main role="main" style="padding-bottom:50px;">
 	<!-- section -->
-	<section>
+	<section style="background-color:#fff;">
 	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
 		<!-- article -->
@@ -18,7 +18,7 @@
 			<div class="container">
 
 			<!-- post title -->
-			<h1 class="mt-4" style="font-weight:bold; font-size:2em;">
+			<h1 class="" style="font-weight:bold; font-size:2em; margin-top:50px;">
 				<a style="color:black;" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
 			</h1>
 			<!-- /post title -->
