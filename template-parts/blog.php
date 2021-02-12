@@ -26,7 +26,7 @@ get_header(); ?>
             <?php
                 $post = array(
                 'post_type' => 'post',
-                'order' => 'ASC',
+                'order' => 'DESC',
                 'post_status' => 'publish'  
             );
             $loop = new WP_Query( $post ); ?>
