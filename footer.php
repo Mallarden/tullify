@@ -16,9 +16,9 @@
 						</b>
 						<ul>
 							<li>Tullify AB</li>
-							<li>Paternostergatan 12, vån 6</li>
-							<li>414 67 Göteborg</li>
-							<li>Sverige</li>
+							<li>Stureplatsen 3</li>
+							<li>411 39 Göteborg</li>
+							<li>Sverige</li>							
 						</ul>
 					</div>
 					<div class="col-lg-6">
